@@ -24,5 +24,5 @@ and refresh the client
 ### Screenshots
 
 ![Screenshot 2023-06-20 at 16 14 55](https://github.com/adiachituve/web-page/assets/50465800/ad4cbb68-776d-4aeb-871a-7de4e1569730)
-![Screenshot 2023-06-20 at 16 15 33](https://github.com/adiachituve/web-page/assets/50465800/17302a36-0030-4860-aa2b-7867dc66402f)
-![Screenshot 2023-06-20 at 16 15 45](https://github.com/adiachituve/web-page/assets/50465800/fe986bc8-68fe-423e-a0ea-761b1513320c)
+<div><img src="https://github.com/adiachituve/web-page/assets/50465800/17302a36-0030-4860-aa2b-7867dc66402f" width="400"></div>
+<img src="https://github.com/adiachituve/web-page/assets/50465800/fe986bc8-68fe-423e-a0ea-761b1513320c" width="400">
