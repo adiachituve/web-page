@@ -1,0 +1,19 @@
+// Core files
+@import './core/normalize';
+@import './core/reset';
+
+body,
+html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 62.5%;
+}
+
+html {
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  font-size: 20px;
+}

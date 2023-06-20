@@ -1,0 +1,16 @@
+.circleIndicator {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #dedede;
+}
+
+:global {
+  .ws-connected {
+    background-color: #0f0;
+  }
+
+  .ws-disconnected {
+    background-color: #f00;
+  }
+}

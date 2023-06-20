@@ -1,0 +1,120 @@
+{
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ]
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "react-hooks",
+    "import"
+  ],
+  "rules": {
+    "curly": [
+      "error",
+      "all"
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "implicit-arrow-linebreak": "off",
+    "function-paren-newline": "off",
+    "max-classes-per-file": "off",
+    "max-len": [
+      "error",
+      100,
+      {
+        "ignorePattern": "^import\\W.*"
+      }
+    ],
+    "no-console": [
+      "error"
+    ],
+    "no-debugger": [
+      "error"
+    ],
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
+    "no-unused-expressions": "off",
+    "no-undef": "off",
+    "no-redeclare": "off",
+    "no-shadow": "off",
+    "no-use-before-define": "off",
+    "no-useless-return": "off",
+    "@typescript-eslint/no-unused-expressions": "error",
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "off",
+    "react/sort-comp": "off",
+    "react/no-multi-comp": "off",
+    "react/jsx-curly-newline": "off",
+    "react/jsx-fragments": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/no-autofocus": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/media-has-caption": "off",
+    "jsx-a11y/alt-text": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "@typescript-eslint/no-namespace": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
+    "prefer-rest-params": "off",
+    "object-curly-newline": "off",
+    "operator-linebreak": "off",
+    "no-else-return": "off",
+    "class-methods-use-this": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "no-bitwise": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "ignorePatterns": [
+    "**/node_modules",
+    "**/build",
+    "**/dev",
+    "webpack.config.js"
+  ]
+}

@@ -1,0 +1,44 @@
+@use '/src/styles/breakpoints' as *;
+
+$headerHeight: 60px;
+
+.appContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: calc(100vh - #{$headerHeight});
+  display: flex;
+}
+
+.menuContainer {
+  flex: 1;
+}
+
+.layout {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLayoutContainer {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.footerContainer {
+  flex-shrink: 0;
+}
+
+@include mobile-app {
+  .content {
+    display: contents;
+  }
+
+  .layout {
+    flex: 8;
+    overflow-y: auto;
+  }
+}

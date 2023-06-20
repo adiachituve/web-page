@@ -1,0 +1,59 @@
+/* resets styles that come with the browser’s user agent. */
+
+button,
+input,
+textarea {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  color: inherit;
+}
+
+*:not(input, textarea) {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-webkit-resizer {
+  display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

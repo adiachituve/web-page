@@ -1,0 +1,33 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+  "rules": {
+    "order/properties-alphabetical-order": null,
+    "at-rule-empty-line-before": null,
+    "color-function-notation": null,
+    "color-named": null,
+    "selector-max-id": 1,
+    "max-nesting-depth": 3,
+    "property-no-vendor-prefix": null,
+    "no-descending-specificity": null,
+    "no-invalid-position-at-import-rule": null,
+    "selector-no-qualifying-type": [ true, {
+      "ignore": [ "attribute", "class" ]
+    } ],
+    "length-zero-no-unit": [ true, {
+      "ignore": [ "custom-properties" ]
+    }],
+    "max-line-length": null,
+    "import-notation": "string",
+    "selector-class-pattern": null,
+    "scss/dollar-variable-pattern": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": [
+          "global"
+        ]
+      }
+    ]
+  },
+  "ignoreFiles": ["**/normalize.css"]
+}

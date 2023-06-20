@@ -1,0 +1,13 @@
+$desktop-app-width: 900px;
+
+@mixin mobile-app {
+  @media only screen and (max-width: #{$desktop-app-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop-app {
+  @media only screen and (min-width: #{$desktop-app-width}) {
+    @content;
+  }
+}

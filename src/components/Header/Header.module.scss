@@ -1,0 +1,18 @@
+.header {
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-bottom: 2px solid #dedede;
+  box-sizing: border-box;
+  color: white;
+  background-color: #264866;
+  position: relative;
+}
+
+.headerSocketIndicator {
+  position: absolute;
+  right: 20px;
+}
