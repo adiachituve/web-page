@@ -1,4 +1,4 @@
-### Frontend
+## Frontend web page
 
 This project demonstrates responsive and adaptive web page using React, TypeScript and Flexbox layout system.
 
